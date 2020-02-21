@@ -1,0 +1,21 @@
+*{
+	text-align: center;
+}
+body{
+	background: #CCCCCC;
+}
+#prob{
+	margin-top: 35px;
+	text-align: left;
+	color: black;
+	font-size: 22px;
+	border: solid 1px black;
+	border-radius: 10px;
+	background: lightblue;
+	padding: 5px;
+}
+#regreso{
+	padding: 10px;
+	background: black;
+	color: red; 
+}

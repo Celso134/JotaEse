@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="CSS/css6.css">
+	<script type="text/javascript" src="JS/validaciones6.js"></script>
+	<title>Algoritmo 6</title>
+</head>
+<body>
+	<noscript>
+		<META HTTP-EQUIV="REFRESH" CONTENT="1;URL=error.html">
+	</noscript>
+	<p id='prob'>Realiza un algoritmo que calcule la edad de una persona.</p>
+	<hr style="color: #886F68;" size="1" width="75%" align="center"> <br> <br>
+	<div>
+		<form name="formulario">
+			<label class="texte">Selecciona tu dia de nacimiento</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<select size="1" id="DiaActual" width="300">
+				<option value="DA1">1</option>
+                <option value="DA2">2</option>
+                <option value="DA3">3</option>
+              	<option value="DA4">4</option>
+                <option value="DA5">5</option>
+                <option value="DA6">6</option>
+                <option value="DA7">7</option>
+                <option value="DA8">8</option>
+                <option value="DA9">9</option>
+                <option value="DA10">10</option>
+                <option value="DA11">11</option>
+                <option value="DA12">12</option>
+                <option value="DA13">13</option>
+                <option value="DA14">14</option>
+                <option value="DA15">15</option>
+                <option value="DA16">16</option>
+                <option value="DA17">17</option>
+                <option value="DA18">18</option>
+                <option value="DA19">19</option>
+                <option value="DA20">20</option>
+                <option value="DA21">21</option>
+                <option value="DA22">22</option>
+                <option value="DA23">23</option>
+                <option value="DA24">24</option>
+                <option value="DA25">25</option>
+                <option value="DA26">26</option>
+                <option value="DA27">27</option>
+                <option value="DA28">28</option>
+             	<option value="DA29">29</option>
+                <option value="DA30">30</option>
+                <option value="DA31">31</option>
+			</select> <br>	<br>	
+			<label class="texte">Selecciona tu mes de nacimiento</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<select id="MesActual">
+				<option value="Aenero">Enero</option>
+                <option value="Afebrero">Febrero</option>
+                <option value="Amarzo">Marzo</option>
+                <option value="Aabril">Abril</option>
+                <option value="Amayo">Mayo</option>
+                <option value="Ajunio">Junio</option>
+                <option value="Ajulio">Julio</option>
+                <option value="Aagosto">Agosto</option>
+                <option value="Aseptiembre">Septiembre</option>
+                <option value="Aoctubre">Octubre</option>
+                <option value="Anoviembre">Noviembre</option>
+                <option value="Adiciembre">Diciembre</option>
+			</select> <br>	 <br>	
+			<label class="texte">Ingresa tu año de nacimiento</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="text" name="añoA" class="boxi" onKeyPress="return validarn(event)" required onPaste="copiarPegar(event)"> <br> <br> 
+			<input type="button" name="calcular" value="Calcular edad" onclick="calcularEdad()">
+			<input type="reset" name="reset" value="Volver a calcular"><br><br>	
+			<div align="center">	
+					<label class="texte">TU EDAD ES:</label>
+					<input type="text" name="cantidad" readonly="readonly" class="boxi">	
+                    <input id='regreso' type="button" name="regreso" value='Regresar' onclick="location.href='index.html'">
+			</div>
+		</form>
+	</div>	
+</body>
+</html>

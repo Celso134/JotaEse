@@ -1,0 +1,48 @@
+*{
+	text-align: center;
+}
+@keyframes giroVic{
+	from{
+		transform: rotate(0deg)
+	}
+	to{
+		transform: rotate(359deg);
+	}
+}
+body{
+	background: black;
+}
+h1{
+	color: black;
+}
+p{
+	color: black;
+}
+#asd{
+	height
+}
+input{
+	background: black;
+	border: solid 1px white;
+	color: red;
+	padding: 15px;
+}
+#asd{
+	background: #CCC27A;
+	width: 550px;
+	height: auto;
+	display: inline-block;
+	border: solid 2px orange;
+	border-radius: 15px;
+	padding-bottom: 15px;
+}
+figure{
+	float: left;
+	animation: giroVic 3.5s infinite linear;
+}
+img{
+	border-radius: 15px;
+}
+#asdd{
+	float: left;
+}

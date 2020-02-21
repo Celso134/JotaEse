@@ -1,0 +1,132 @@
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+li{
+	font-size: 20px;
+	color: black;
+}
+
+img{
+	align-self: center;
+	border: 10px solid black;
+}
+
+p{
+ 	font-size: 45px;
+ 	align-content: center;
+ 	justify-content: center;
+ 	text-align: center;
+
+ }
+
+ hr{
+ 	border-width: 2px;
+ 	border-color: #42213D;
+ }
+
+
+table{
+	border: 2px solid #30011E;
+	color: #F5FBEF;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+
+}
+
+
+section{
+	border-radius: 10px;
+	padding: 1rem;
+	background-color: #28464B;
+	margin: 1rem;
+	border: 3px solid #000000;
+	width: 13%;
+}
+
+.otraxd{
+	font-size: 30px;
+	font-family: Times New Roman,serif;
+
+}
+
+.otroxd{
+	font-size: 30px;
+	font-family: Times New Roman,serif;
+}
+
+.titulo{	
+
+	font-size: 45px;
+	font-family: Florence,monospace;
+	animation-duration: 3s;
+	animation-name: slidein;
+	color: black;
+
+}
+
+.pag{
+ 		background-color: #D1CCDC;
+ }
+
+.pag2{
+	background-color: #424C55;
+}
+
+.pag3{
+	background-color: #92AD94;
+}
+
+.otrop{
+	font-size: 25px;
+ 	align-content: center;
+ 	justify-content: center;
+ 	text-align: center;
+
+}
+
+.input_text{
+	size: 16px;
+	border-width: 3px;
+	border-style: solid;
+	color: #8A7090;
+	letter-spacing: 3px;
+}
+
+.enun{
+	font-size: 30px;
+	justify-content: justify;
+	font-family: Times New Roman,serif;
+}
+
+.texte{
+	font-size: 20px;
+	justify-content: justify;
+	font-family: Times New Roman,serif;
+}
+
+.boxi{
+	border: 2px solid #000000;
+	border-radius: 3px;
+}
+
+.priv{
+	font-size: 15px;
+	font-family: Times New Roman,serif;
+}
+
+.tre{
+	font-size: 20px;
+	justify-content: justify;
+	font-family: Times New Roman,serif;
+}
+

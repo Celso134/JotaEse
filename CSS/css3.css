@@ -1,0 +1,38 @@
+*{
+	text-align: center;
+}
+body{
+	background: #CCCCCC;
+}
+#regreso{
+	padding: 10px;
+	background: black;
+	color: red; 
+}
+#prob{
+	text-align: left;
+	color: black;
+	font-size: 22px;
+	border: solid 1px black;
+	border-radius: 10px;
+	background: lightblue;
+	padding: 5px;
+}
+#tit{
+	font-size: 25px;
+}
+select{
+	background: #CCC27A;
+}
+option{
+	background: #CCC27A;
+}
+optgroup{
+	background: #CCC27A;
+}
+input{
+	background: #CCC27A;
+}
+#saaz{
+	text-align: left;
+}

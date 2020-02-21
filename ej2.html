@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Algoritmo 2</title>
+	<link rel="stylesheet" href="CSS/css2.css">
+	<script src="JS/validaciones2.js"></script>
+</head>
+<body>
+	<noscript>
+        <META HTTP-EQUIV="REFRESH" CONTENT="1;URL=error.html">
+</noscript>
+	<p id='prob'>Un vendedor recibe un sueldo base mas un 12% extra por comision de sus ventas. <br>
+	El vendedor desea saber cuanto dinero obtendra por comisiones de las cinco ventas que realizo en el mes. <br>
+	Y el total que recibira en el mes tomando en cuenta sus sueldo base y comisones </p>
+	<hr style="color: #886F68;" size="1" width="75%" align="center">
+	<form method="get" name="formulario" >
+	<div align="center">
+			<label class="texte" >¿Cual es su sueldo base?</label> <br> 
+			<input type="text"  name="suelo" id="sueldi" class="boxi" onKeyPress="return validarnum(event)"required onPaste="copiarPegar(event)"/> <br> 
+			<label class="texte">¿Cual fue el total de su primera venta?</label> <br> 
+			<input type="text" name="ven1"  id="v1" class="boxi" 	onkeypress="return validarnum(event)"> <br> 
+			<label class="texte">¿Cual fue el total de su segunda venta?</label> <br> 
+			<input type="text" name="ven2"  id="v2" class="boxi" onkeypress="return validarnum(event)"> <br> 
+			<label class="texte">¿Cual fue el total de su tercera venta?</label> <br> 
+			<input type="text" name="ven3"  id="v3" class="boxi" onkeypress="return validarnum(event)"> <br> 
+			<label class="texte">¿Cual fue el total de su cuarta venta?</label> <br>
+			<input type="text" name="ven4"  id="v4" class="boxi" onkeypress="return validarnum(event)"> <br> 
+			<label class="texte">¿Cual fue el total de su quinta venta?</label> <br> 
+			<input type="text" name="ven5"  id="v5" class="boxi" onkeypress="return validarnum(event)"> <br> <br>
+			<input type="button" name="boton" value="Calcular total del mes" onclick="calculos()"> <br> <br>
+
+			<label class="texte">Sueldo:</label>
+			<input type="text" name="sue" id="su" readonly="readonly" class="boxi">
+			<blockquote></blockquote>
+			<label class="texte">Comision:</label>
+			<input type="text" name="comi" id="com" readonly="readonly" class="boxi"> <br><br>
+			<label class="texte">TOTAL DE MES:</label>
+			<input type="text" name="total" id="tot" readonly="readonly" class="boxi">
+	</div>
+	<input id='regreso' type="button" name="regreso" value='Regresar' onclick="location.href='index.html'">
+	</form>
+</body>
+</html>

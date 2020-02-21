@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="CSS/css3.css">
+	<script type="text/javascript" src="JS/validaciones3.js"></script>
+	<title>Algoritmo 3</title>
+</head>
+<body>
+	<noscript>
+		<META HTTP-EQUIV="REFRESH" CONTENT="1;URL=error.html">
+	</noscript>
+	<p id='prob'>Una tienda ofrece un descuento sobre el total de la compra. <br>
+		El cliente debe ingresar que fue lo que compro. <br>
+		El cliente tambien quiere saber cuanto va a pagar finalmente por su compra. <br></p>
+		<hr style="color: #886F68;" size="1" width="75%" align="center">
+	<div align="left">
+		<p id='tit'>Tendajón 'Sos un crack'</p> <br>
+		<form name="formulario">
+		<select  size="1" id="liste" name="listu" >
+			<option value="" disabled selected>--SELECCIONE SU PRODUCTOS--</option>
+			<optgroup label="Golosinas">
+				<option value="Cheetos = $7" name="ch">Cheetos</option>
+				<option value="Gansito = $10">Gansito</option>
+				<option value="Submarinos = $12">Submarinos</option>
+				<option value="Rancheritos = $6">Rancheritos</option>
+			</optgroup>
+		</select>
+		<select  size="1" id="liste" name="listu2" >
+			<option value="" disabled selected>--SELECCIONE SU PRODUCTOS--</option>
+			<optgroup label="Bebidas">
+				<option value="Coca de Piña = $50" name="coca">Coca de Piña</option>
+				<option value="7-Up = $10">7-Up</option>
+				<option value="Pepsi = $11">Pepsi(fuchikk)</option>
+				<option value="Awa = $9">Awa</option>
+			</optgroup>
+		</select>
+		<select  size="1" id="liste" name="listu3" >
+		<option value="" disabled selected>--SELECCIONE SU PRODUCTOS--</option>	
+			<optgroup label="Basicos">
+				<option value="Papel Higienico = $20">Papel Higienico</option>
+				<option value="Jabon Zote = $13">Jabon Zote</option>
+				<option value="Suavitel = $16">Suavitel</option>
+				<option value="Jabon = $12">Jabon corporal</option>
+			</optgroup>
+		</select>
+		<select  size="1" id="liste" name="listu4" >
+			<option value="" disabled selected>--SELECCIONE SU PRODUCTOS--</option>
+			<optgroup label="Alimentos">
+				<option value="1KG de Jamon = $100"> 1KG de Jamon</option>
+				<option value="Paquete de Salchicha = $26">Paquete de Salchicha</option>
+				<option value="1Kg de Huevo = $37">1Kg de Huevo</option>
+				<option value="Bolsa de arroz = $25">Bolsa de arroz</option>
+			</optgroup>
+		</select>
+		<select  size="1" id="liste" name="listu5" >
+			<option value="" disabled selected>--SELECCIONE SU PRODUCTOS--</option>
+			<optgroup label="Farmacia">
+				<option value="Paracetamol = $30">Paracetamol</option>
+				<option value="Clonazepam = $50">Clonazepam</option>
+			</optgroup>
+		</select>
+		 <br><br>
+		<input type="button" name="Enviar1" value="Generar Ticket" onclick="return seleccion(event)"><br><br>
+		<section>
+			<input type="text" name="r1" readonly="readonly" class="boxi"> <br> <br>
+			<input type="text" name="r2" readonly="readonly" class="boxi"> <br> <br>
+			<input type="text" name="r3" readonly="readonly" class="boxi"> <br> <br>
+			<input type="text" name="r4" readonly="readonly" class="boxi"> <br> <br>
+			<input type="text" name="r5" readonly="readonly" class="boxi"> <br> <br>
+		</section> 
+		<section'>
+			<label class="texte" id='saaz'>Subtotal:</label>
+			<input type="text" name="subtotal" readonly="readonly" class="boxi"> <br>
+			<label class="texte" id='saaz'>Descuento:</label>
+			<input type="text" name="descu" readonly="readonly" class="boxi"> <br> 
+			<label class="texte" id='saaz'> Total:</label>
+			<input type="text" name="total" readonly="readonly" class="boxi"> <br> <br>
+			<input type="reset" name="Reset" value="Nueva Compra">
+		</section>
+		</form>
+		<br>
+		<input id='regreso' type="button" name="regreso" value='Regresar' onclick="location.href='index.html'">
+	</div>
+</body>
+</html>

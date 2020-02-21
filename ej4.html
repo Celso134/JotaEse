@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="CSS/css4.css">
+	<script type="text/javascript" src="JS/validaciones4.js"></script>
+	<title>Algoritmo 4</title>
+</head>
+<body>
+	<noscript>
+		<META HTTP-EQUIV="REFRESH" CONTENT="1;URL=error.html">
+	</noscript>
+	<p id='prob'>Un alumno desea saber cual sera su calificacion final en la clase de Algoritmos. <br>
+		Dicha calificacion se compone de los siguientes porcentajes <br>
+		55% del promedio de sus tres calificaciones parciales. <br>
+		30% de la calificacion del examen final. <br>
+		15% de la claificacion de su trabajo final.
+	</p>
+	<hr style="color: #886F68;" size="1" width="75%" align="center">
+	<form name="formulario">
+		<div>
+			<label class="texte">Calificacion 1er Parcial</label>
+			<input type="text" name="primer"  class="boxi" onKeyPress="return validar1(event)" required onPaste="copiarPegar(event)"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<label class="texte">Calificacion 2do Parcial</label>
+			<input type="text" name="segundo" class="boxi" onKeyPress="return validar2(event)" required onPaste="copiarPegar(event)"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<label class="texte">Calificacion 3er Parcial</label>
+			<input type="text" name="tercer" class="boxi" onKeyPress="return validar3(event)" required onPaste="copiarPegar(event)"> <br> <br>
+			<label class="texte">Calificacion Examen Final</label>
+			<input type="text" name="exfi" max="10" min="0" class="boxi" onKeyPress="return validar4(event)" required onPaste="copiarPegar(event)"> <br><br>
+			<label class="texte">Calificacion Trabajo Final</label>
+			<input type="text" name="trafi" max="10" min="0" class="boxi" onKeyPress="return validar5(event)" required onPaste="copiarPegar(event)"> <br> <br>
+			<input type="button" name="calc" value="Calcular promedio" onclick="promedio()"><br> <br>
+			<div align="center">
+				<label class="texte">PROMEDIO FINAL</label>
+				<input type="text" name="finalillo" readonly="readonly" class="boxi">
+			</div>
+		</div>
+		<input id='regreso' type="button" name="regreso" value='Regresar' onclick="location.href='index.html'">
+	</form>
+</body>
+</html>
